@@ -3,9 +3,9 @@ body {
 }
 
 .wrapper {
+  width: 800px;
+  height: 800px;
   display: grid;
-  grid-template-columns: 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px;
-  grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px;
   background-color: #fff;
   color: #444;
 }
@@ -15,4 +15,8 @@ body {
   color: #fff;
   padding: 20px;
   font-size: 150%;
+}
+
+.hidden {
+  background-color: #fff;
 }
